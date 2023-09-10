@@ -31,9 +31,9 @@ Review the simulation results to ensure that the Array_multiplier module behaves
 ## Example Usage
 Here's an example of how you can use the Array_multiplier module in your own Verilog project:
 
-
-// Instantiate the Array_multiplier module
-Array_multiplier multiplier_inst(
+         ```verilog
+      // Instantiate the Array_multiplier module
+      Array_multiplier multiplier_inst(
     .dataa1(data1), // Provide your 32-bit input data values
     .datab1(data2),
     .dataa2(data3),
@@ -51,7 +51,7 @@ Array_multiplier multiplier_inst(
     .adder_out7(output7),
     .adder_out8(output8),
     .adder_out9(output9)
-);
+      );
 
 // Simulate and verify the behavior of the multiplier module
 Feel free to modify and use these Verilog files in your own projects. If you have any questions or encounter issues, please open an issue in this repository.
